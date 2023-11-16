@@ -49,3 +49,20 @@ nav {
     padding: 10px 30px;
     border-radius: 10px;
 }
+
+
+.colorful-text{
+    font-family: 'Nunito';
+    color: #0079C2;
+    margin-top: 10px; 
+    font-size : 50px;
+    text-align: center;
+
+}
+
+.prodi-description{
+    text-align: center;
+    font-size : 25px;
+    font-style: 'nunito';
+    font-weight: 500;
+}
