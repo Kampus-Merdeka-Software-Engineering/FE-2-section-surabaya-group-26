@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #19246F;
+    padding: 10px 50px;
+}
+
+.Logo > img {
+    width: 65%;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    gap: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.itemMenu {
+    text-decoration: none;
+    color: white;
+}
+
+.contactItem > a > button {
+    background-color: #0079C2;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
