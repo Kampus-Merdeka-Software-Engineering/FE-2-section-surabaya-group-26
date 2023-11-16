@@ -73,6 +73,12 @@ nav {
     height: 500px; 
 }
 
+.row{
+    background-color: rgba(0, 121, 194, 0.7);
+    margin: 0; 
+    padding: 0; 
+}
+
 footer {
     background-color: #000;
     color: #fff;
