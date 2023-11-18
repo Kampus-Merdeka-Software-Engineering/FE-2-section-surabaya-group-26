@@ -48,4 +48,45 @@ nav {
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+
+.empty-space {
+    height: 500px; 
+}
+
+.colorful-text{
+    font-family: 'Nunito';
+    color: #0079C2;
+    margin-top: 10px; 
+    font-size : 50px;
+    text-align: center;
+}
+
+.prodi-description{
+    text-align: center;
+    font-size : 25px;
+    font-style: 'nunito';
+    font-weight: 500;
+}
+
+.empty-space2 {
+    height: 500px; 
+}
+
+.row{
+    background-color: rgba(0, 121, 194, 0.7);
+    margin: 0; 
+    padding: 0; 
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+>>>>>>> 4c7c4d349b825a3ad69e0e13602aa618361cd2dd
