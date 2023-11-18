@@ -22,7 +22,7 @@ nav {
 }
 
 .Logo > img {
-    width: 65%;
+    width: 70%;
 }
 
 .navItem {
@@ -48,35 +48,4 @@ nav {
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
-}
-
-.empty-space {
-    height: 500px; 
-}
-
-.colorful-text{
-    font-family: 'Nunito';
-    color: #0079C2;
-    margin-top: 10px; 
-    font-size : 50px;
-    text-align: center;
-}
-
-.prodi-description{
-    text-align: center;
-    font-size : 25px;
-    font-style: 'nunito';
-    font-weight: 500;
-}
-
-.empty-space2 {
-    height: 500px; 
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: left;
-    padding: 10px;
-    box-sizing: border-box;
 }
