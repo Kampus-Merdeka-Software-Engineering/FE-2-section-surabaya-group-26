@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -127,4 +128,111 @@ nav {
     z-index: 1;
     top: 67%;
     right: 9%;
+}
+
+
+/* Visi Misi */
+.titleVisimisi {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.titleVisimisi > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contentVisimisi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 120px 20px;
+    gap: 140px;
+}
+
+.titleVisi {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-image: linear-gradient(#19246F, white);
+    border-radius: 15px;
+    padding: 50px 50px;
+    size: 30px;
+    z-index: 1;
+    top: 495px;
+    left: 324px;
+}
+
+.titleVisi > h1 {
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.visi {
+    display: flex;
+    flex-direction: column;
+    outline-style: solid;
+    outline-color: #19246F;
+    border-radius: 25px;
+    width: 50%;
+    padding-left: 45px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.visi > p {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.titleMisi {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-image: linear-gradient(#19246F, white);
+    border-radius: 15px;
+    padding: 50px 50px;
+    size: 30px;
+    z-index: 1;
+    top: 1030px;
+    left: 324px;
+}
+
+.titleMisi > h1 {
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.misi {
+    display: flex;
+    flex-direction: column;
+    outline-style: solid;
+    outline-color: #19246F;
+    border-radius: 25px;
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 35px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.misi > ul {
+    font-size: 27px;
+    font-weight: 600;
+    list-style-type: decimal;
 }
