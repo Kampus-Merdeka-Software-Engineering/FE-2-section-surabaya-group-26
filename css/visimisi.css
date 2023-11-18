@@ -44,11 +44,13 @@ nav {
     overflow: hidden;
 }
 
+.dropbtn {
+    display: flex;
+}
+
 .dropdown .dropbtn {
-    display: inline;
     font-size: 18px;
-    /* justify-items: space-between; */
-    /* border: none; */
+    border: none;
     outline: none;
     color: white;
     background-color: inherit;
