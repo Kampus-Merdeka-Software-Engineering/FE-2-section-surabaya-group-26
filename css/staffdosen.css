@@ -130,106 +130,51 @@ nav {
     right: 9%;
 }
 
-
-/* Visi Misi */
-.titleVisimisi {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    text-align: center;
-    margin: 150px 0px;
+/* Content */
+section {
+    padding: 40px 60px;
+    background-color: #19246F;
 }
 
-.titleVisimisi > h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.contentVisimisi {
+.contentTop {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 120px 20px;
-    gap: 140px;
 }
 
-.titleVisi {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-image: linear-gradient(#19246F, white);
-    border-radius: 15px;
-    padding: 50px 50px;
-    size: 30px;
-    z-index: 1;
-    top: 495px;
-    left: 324px;
+.contentTop > img {
+    width: 35%;
 }
 
-.titleVisi > h1 {
-    text-align: center;
+.contentTop-Right > h1 {
+    margin-right: 180px;
+    margin-bottom: 150px;
     color: white;
-    font-size: 43px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Archivo";
 }
 
-.visi {
-    display: flex;
-    flex-direction: column;
-    outline-style: solid;
-    outline-color: #19246F;
-    border-radius: 25px;
-    width: 50%;
-    padding: 100px 45px 150px;
+.staffTanov > img {
+    display: block;
+    margin: auto;
+    width: 30%;
 }
 
-.visi > p {
-    font-size: 27px;
-    font-weight: 600;
-}
-
-.titleMisi {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-image: linear-gradient(#19246F, white);
-    border-radius: 15px;
-    padding: 50px 50px;
-    size: 30px;
-    z-index: 1;
-    top: 1070px;
-    left: 324px;
-}
-
-.titleMisi > h1 {
+.staffTanov > h1 {
     text-align: center;
-    color: white;
-    font-size: 43px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 
-.misi {
+.contentMid {
     display: flex;
-    flex-direction: column;
-    outline-style: solid;
-    outline-color: #19246F;
-    border-radius: 25px;
-    width: 50%;
-    padding: 100px 35px 90px 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.misi > ul {
-    font-size: 27px;
-    font-weight: 600;
-    list-style-type: decimal;
+.contentBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Footer */
