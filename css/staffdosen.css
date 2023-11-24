@@ -139,42 +139,62 @@ section {
 .contentTop {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 10rem;
 }
 
-.contentTop > img {
-    width: 35%;
-}
-
-.contentTop-Right > h1 {
-    margin-right: 180px;
-    margin-bottom: 150px;
+.contentTop > h1 {
     color: white;
-    font-size: 90px;
-    font-weight: 700;
     font-family: "Archivo";
+    font-size: 5.5rem;
+    font-weight: 700;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    right: 20%;
 }
 
-.staffTanov > img {
-    display: block;
-    margin: auto;
-    width: 30%;
-}
-
-.staffTanov > h1 {
-    text-align: center;
+.staffTanov {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    margin-right: 5rem;
 }
 
 .contentMid {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15%;
+    margin: 0 5rem;
+    margin-bottom: 10rem;
 }
 
 .contentBottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15%;
+    margin: 0 5rem;
+    margin-bottom: 10rem;
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgStaff {
+    margin-bottom: 20px;
+}
+
+.nameStaff {
+    color: white;
+    font-size: 30px;
 }
 
 /* Footer */
