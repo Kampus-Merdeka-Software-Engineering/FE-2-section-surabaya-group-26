@@ -3,31 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
     <title>Capstone Project - Team M - Group 29</title>
+    <link rel="stylesheet" href="css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poly' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
 </head>
+
 <body>
     <!-- Navbar -->
-    <nav>
-        <div class="Logo">
-            <img src="img/logo.png" alt="ITDel">
+    <nav> 
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="navItem">
-            <a href="" class="itemMenu">Beranda</a>
-            <a href="" class="itemMenu">Tentang Kita</a>
-            <a href="" class="itemMenu">Organisasi</a>
-            <a href="" class="itemMenu">Experience</a>
-            <a href="" class="itemMenu">Publikasi</a>
+
+        <div class="navbar">
+
+            <div class="navTop">
+                <div class="navItem">
+                    <a href="index.html" class="menuItem">Beranda</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Tentang Kita
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="visimisi.html">Visi Misi</a>
+                            <a href="">Sejarah</a>
+                            <a href="staffdosen.html">Staff & Dosen</a>
+                        </div>
+                    </div>
+                    <a href="#" class="menuItem">Organisasi</a>
+                    <a href="#" class="menuItem">Experience</a>
+                    <a href="#" class="menuItem">Publikasi</a>
+                </div>
+        
+                <div class="contItem">
+                    <a href="#"><button>Contact Us</button></a>
+                </div>
+            </div>
+
+            <div class="navDown">
+                <div class="searchItem">
+                    <input type="text" placeholder="Pencarian...">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="contactItem">
-            <a href=""><button>Contact Us</button></a>
-        </div>
+
     </nav>
 
-    
-
+    <!-- Main Content -->
    <main class="color-main">
     <section class="banner">
         <div class="banner-text">
@@ -35,26 +65,26 @@
             <span class="informatika-text"> INFORMATIKA </span>
         </div>
         <div class="image-banner">
-            <img src="./assets/banner.svg" alt="banner" class="banner-img" /> 
+            <img src="img/banner.png" alt="banner" class="banner-img" /> 
         </div>
     </section>
 
-     <section class="desc-program">
+    <section class="desc-program">
         <div class="colorful-text">
             <span class="program-studi">Program Studi</span>
-            <span class="informatika-text"> INFORMATIKA </span>
+            <span class="informatika-text">INFORMATIKA</span>
         </div>
     
-          <div class="prodi-description">
+        <div class="prodi-description">
             Informatika merupakan salah satu core technology dalam sistem teknologi yang dikenal sebagai 
             Teknologi Informasi dan Komunikasi (Information and Communication Technology), karena melalui pemfungsian 
             Informatika-lah diperoleh produk-produk perangkat lunak (software products) yang memungkinkan terwujudnya sifat intelligent dari 
             Teknologi Informasi dan Komunikasi. Teknologi Informasi dan Komunikasi merupakan strategic enabling technology dalam menopang upaya 
             pencerdasan kehidupan bangsa.
         </div>
-     </section>
+    </section>
 
-     <section class="events">
+    <section class="events">
         <div class="container">
            <div class="sub-container">
             <div class="wrapper" >
@@ -134,9 +164,9 @@
             <div class="title-detail-events ">
                 <div>Graduation Day</div>
             </div>
-       </div>
         </div>
-     </section >
+        </div>
+    </section >
        
      <section >
         <div class="berita-terkini">
@@ -196,20 +226,58 @@
      </section>
    </main>
     
-     <div class="row ">
-        <div class="col-sm ">
-            <img src="img/logo.png" alt="ITDel"><br>
-            <label for=" ">Institut Teknologi Del</label><br>
-            <label for=" ">Jl. Sisingamangaraja, Sitoluama, Laguboti, Toba Samosir Sumatera Utara - Indonesia 22381</label>
-            <br>
-            <label for=" ">+62822988XXXXX</label><br>
-            <label for=" "><i>Informatika@del.ac.id</i></label>
-        </div>
-    </div>
+   <!-- Footer -->
+    <footer class="infoContact">
+        <div class="footerLeft">
+            <div class="logoFooter">
+                <img src="img/logo.png" alt="logo">
+            </div>
 
-    <footer>
-        © 2023 RevoU - Section Surabaya Team 26
+            <div class="information">
+                <h1>Institut Teknologi Del</h1>
+                <h2>Jl. Sisingamangaraja, Sitoluama, Laguboti, Toba Samosir
+                    Sumatera Utara  -  Indonesia  22381</h2>
+                <div class="infoNomor">
+                    <i class="fa-regular fa-phone"></i>
+                    <h1>+62822988XXXXX</h1>
+                </div>
+                <div class="infoEmail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h1>Informatika@del.ac.id</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerRight">
+            <div class="email">
+                <ul>
+                    <li>Enter  your email to subscribe & get the laterst news</li>
+                </ul>
+
+                <div class="inputGroup">
+                    <label id="emailLabel">Email Address</label>
+                    <input type="email" spellcheck="false" id="emailField" onkeyup="validateEmail()">
+                    <span id="emailError"></span>
+                </div>
+
+                <input type="submit" value="Submit">
+            </div>
+
+            <div class="icon">
+                <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="img/email.png" alt="email"></a>
+                <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="img/radio.png" alt="radio"></a>
+            </div>
+        </div>
     </footer>
+    <footer class="watermark">
+        <h1>© 2023 RevoU - Section Surabaya Team 26</h1>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="./JS/footer.js"></script>
 
     <script src="./js/index.js"></script>
 </body>
