@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project - Team M - Group 29</title>
+    <link rel="stylesheet" href="css/capaian.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poly' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav> 
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="navbar">
+
+            <div class="navTop">
+                <div class="navItem">
+                    <a href="index.html" class="menuItem">Beranda</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Tentang Kita
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="visimisi.html">Visi Misi</a>
+                            <a href="sejarah.html">Sejarah</a>
+                            <a href="staffdosen.html">Staff & Dosen</a>
+                        </div>
+                    </div>
+                    <a href="#" class="menuItem">Organisasi</a>
+                    <a href="#" class="menuItem">Experience</a>
+                    <a href="#" class="menuItem">Publikasi</a>
+                </div>
+        
+                <div class="contItem">
+                    <a href="#"><button>Contact Us</button></a>
+                </div>
+            </div>
+
+            <div class="navDown">
+                <div class="searchItem">
+                    <input type="text" placeholder="Pencarian...">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Main Content -->
+    <main class="color-content">
+        <section class="title-content">
+            <img src="img/comp2.png" alt="elipse">
+            <h1>Capaian Pembelajaran</h1>
+        </section>
+
+        <section class="content">
+            <ul>
+                <li>
+                    Mampu menunjukkan sikap dan prilaku bertakwa kepada Tuhan yang Maha Esa dan 
+                    berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, 
+                    bernegara berdasarkan Pancasila. 
+                </li>
+                <li>
+                    Mampu bekerja sama, disiplin, bertanggung jawab, dan berkarakter Del: Mar Tuhan, 
+                    marroha, marbisuk.
+                </li>
+                <li>
+                    Menguasai dan memahami konsep teoretis secara umum dari matematika dasar 
+                    untuk komputer yaitu: Matematika Diskrit, Probalistik, Statistika dan Kalkulus dapat 
+                    menggunakan konsep teoretis secara umum mengenai kerekayasaan perangkat 
+                    lunak dan pengelolaan proyek pengembangan perangkat lunak. 
+                </li>
+                <li>
+                    Menguasai dan memahami konsep teoretis secara umum mengenai basis data serta 
+                    dapat mempertimbangkan sejumlah konsep dalam rangka menghasilkan basis data, 
+                    prinsip dan teknik desain UT dan UX, teknik keamanan perangkat lunak, sistem 
+                    komputer dalam rangka menghasilkan solusi komputasi, kecerdasan buatan dan 
+                    mesin pembelajar. 
+                </li>
+                <li>
+                    Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks 
+                    pengembangan atau implementasi ilmu pengetahuan dan teknologi yang 
+                    memperhatikan dan menerapkan nilai humaniora yang sesuai dengan bidang 
+                    keahliannya. 
+                </li>
+                <li>
+                    Mampu melakukan rekayasa perangkat lunak sesuai dengan pedoman kerekayasaan 
+                    yang baik dan benar dalam rangka memperbaiki, mengembangkan, atau 
+                    menghasilkan perangkat lunak dan menyusun laporan tertulis pada rekayasa 
+                    perangkat lunak.
+                </li>
+                <li>
+                    Mampu merancang, menerapkan, dan menganalisis hingga mengkombinasikan 
+                    algoritma yang sesuai untuk menyelesaikan permasalahan di bidang komputasi, 
+                    mempertimbangkan dan memutuskan metode atau prinsip keamanan. 
+                </li>
+                <li>
+                    Mampu menerapkan, membandingkan, atau mengkombinaskan algoritma 
+                    kecerdasan buatan dan kaidahkaidah pada kecerdasan buatan untuk menyelesaikan 
+                    persoalan dan proses penjaminan mutu perangkat lunak.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="infoContact">
+        <div class="footerLeft">
+            <div class="logoFooter">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <div class="information">
+                <h1>Institut Teknologi Del</h1>
+                <h2>Jl. Sisingamangaraja, Sitoluama, Laguboti, Toba Samosir
+                    Sumatera Utara  -  Indonesia  22381</h2>
+                <div class="infoNomor">
+                    <i class="fa-regular fa-phone"></i>
+                    <h1>+62822988XXXXX</h1>
+                </div>
+                <div class="infoEmail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h1>Informatika@del.ac.id</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerRight">
+            <div class="email">
+                <ul>
+                    <li>Enter  your email to subscribe & get the laterst news</li>
+                </ul>
+
+                <div class="inputGroup">
+                    <label id="emailLabel">Email Address</label>
+                    <input type="email" spellcheck="false" id="emailField" onkeyup="validateEmail()">
+                    <span id="emailError"></span>
+                </div>
+
+                <input type="submit" value="Submit">
+            </div>
+
+            <div class="icon">
+                <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="img/email.png" alt="email"></a>
+                <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="img/radio.png" alt="radio"></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="watermark">
+        <h1>© 2023 RevoU - Section Surabaya Team 26</h1>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="./JS/footer.js"></script>
+</body>
+</html>
