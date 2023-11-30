@@ -138,7 +138,7 @@ nav {
 .title-content {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 80px 0px;
 }
 
 .title-content > h1 {
@@ -151,7 +151,7 @@ nav {
 .content {
     text-align: justify;
     color: white;
-    padding: 80px 180px;
+    padding: 110px 180px;
 }
 
 .content > ul {

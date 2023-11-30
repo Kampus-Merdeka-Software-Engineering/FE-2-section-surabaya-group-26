@@ -160,13 +160,15 @@ nav {
     width: 100%;
 }
 
+
+/* Tabel */
 .main-content {
-    padding: 60px 60px;
+    padding: 60px 75px;
 }
 
 .first-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .first-semester > h1 {
@@ -197,8 +199,8 @@ nav {
 
 .second-container {
     display: flex;
-    justify-content: space-evenly;
-    padding: 60px;
+    justify-content: space-between;
+    padding: 60px 0px;
 }
 
 .third-semester > h1 {
@@ -227,13 +229,86 @@ nav {
     color: white;
 }
 
-th {
-    border-bottom: 2px solid white;
+.third-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-th, td {
+.fifth-semester > h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#semester5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.sixth-semester > h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#semester6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.seventh-semester > h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#semester7 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.eighth-semester > h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#semester8 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.matkul {
+    width: 25rem;
+}
+
+th {
+    border-bottom: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+td {
     padding: 10px 20px;
     text-align: left;
+}
+
+td:nth-child(3) {
+    text-align: center;
 }
 
 /* Footer */
