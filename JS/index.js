@@ -45,5 +45,46 @@ function moveCarousel(direction) {
   updateCarousel();
 }
 
+document.querySelector("#show-login").addEventListener("click", function(){
+  document.querySelector(".popup").classList.add("active");
+});
+
+document.querySelector(".popup .close-btn").addEventListener("click", function(){
+  document.querySelector(".popup").classList.remove("active");
+});
+
 // Initialize the carousel with the first set of items
 document.addEventListener("DOMContentLoaded", updateCarousel);
+
+
+
+// Login
+const submit = document.querySelector('.sign-in');
+const username = document.getElementById('username');
+const password = document.getElementById('password');
+
+submit.addEventListener('click', () => {
+  const data = {
+    username: username.value,
+    password: password.value
+  }
+
+  fetch('http://localhost:3000/login', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  .then((response) => response.json())
+  .then((data) => {
+    if (data.message === 'Login success') {
+      window.location.href = 'https://www.google.com/'
+    } else {
+      alert('Username/Password Salah')
+    }
+  })
+  .catch((error) => {
+    console.log(error);
+  })
+})
