@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group26 | Admin Dashboard</title>
+    <link rel="icon" type="img" href="img/logo.png">
+    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- ADD Popup Form -->
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Mata Kuliah</h2>
+            <div class="form-element">
+                <label for="kode">Kode</label>
+                <input type="text" id="kode" placeholder="Enter Kode" required>
+            </div>
+            <div class="form-element">
+                <label for="matkul">Mata Kuliah</label>
+                <input type="text" id="matkul" placeholder="Enter Mata Kuliah" required>
+            </div>
+            <div class="form-element">
+                <label for="sks">SKS</label>
+                <input type="number" id="sks" placeholder="Enter SKS" min="1" max="10" required>
+            </div>
+            <div class="form-element">
+                <label for="semester">Semester</label>
+                <select name="semester" id="semester">
+                    <option value="Semester 1">Semester 1</option>
+                    <option value="Semester 2">Semester 2</option>
+                    <option value="Semester 3">Semester 3</option>
+                    <option value="Semester 4">Semester 4</option>
+                    <option value="Semester 5">Semester 5</option>
+                    <option value="Semester 6">Semester 6</option>
+                    <option value="Semester 7">Semester 7</option>
+                    <option value="Semester 8">Semester 8</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <button class="send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EDIT Pop up Form -->
+    <div class="edit-popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Edit Mata Kuliah</h2>
+            <div class="form-element">
+                <label for="kode">Kode</label>
+                <input type="text" id="editKode" placeholder="Enter Kode" required>
+            </div>
+            <div class="form-element">
+                <label for="matkul">Mata Kuliah</label>
+                <input type="text" id="editMatkul" placeholder="Enter Mata Kuliah" required>
+            </div>
+            <div class="form-element">
+                <label for="sks">SKS</label>
+                <input type="number" id="editSks" placeholder="Enter SKS" min="1" max="10" required>
+            </div>
+            <div class="form-element">
+                <label for="semester">Semester</label>
+                <select name="semester" id="editSemester">
+                    <option value="semester 1">Semester 1</option>
+                    <option value="semester 2">Semester 2</option>
+                    <option value="semester 3">Semester 3</option>
+                    <option value="semester 4">Semester 4</option>
+                    <option value="semester 5">Semester 5</option>
+                    <option value="semester 6">Semester 6</option>
+                    <option value="semester 7">Semester 7</option>
+                    <option value="semester 8">Semester 8</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <button class="sendEdit">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <!-- Side Navbar -->
+    <nav>
+        <ul>
+            <li class="dashboard">
+                <img src="img/logo.png" alt="logoDEL">
+                <a href="index.html">DASHBOARD</a>
+            </li>
+            <li>
+                <i class="fas fa-home"></i>
+                <a href="admin.html">Home</a>
+            </li>
+            <li>
+                <i class="fas fa-graduation-cap"></i>
+                <a href="datamatkul.html">Data Mata Kuliah</a>
+            </li>
+            <li class="logout"> 
+                <i class="fas fa-sign-out-alt"></i>
+                <a href="index.html">Log out</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- Main Section -->
+    <section class="main">
+        <div class="main-banner-data">
+            <div class="card-data">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Data Mata Kuliah</h1>
+            </div>
+        </div>
+  
+        <section class="table-container">
+            <div class="table-btn">
+                <div class="left-btn">
+                    <button id="add-matkul" class="fas fa-plus add">    Add</button>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="boxtb">
+            <div class="table-box">
+                <table> 
+                    <thead class="headTable">
+                        <tr>
+                            <th>No</th>
+                            <th>Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                            <th>Semester</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="matkulTable" >
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Javascript -->
+    <script src="JS/datamatkul.js"></script>
+</div>
+</body>
+</html>

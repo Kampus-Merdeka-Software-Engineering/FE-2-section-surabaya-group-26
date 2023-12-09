@@ -45,6 +45,8 @@ function moveCarousel(direction) {
   updateCarousel();
 }
 
+
+// POPUP
 document.querySelector("#show-login").addEventListener("click", function(){
   document.querySelector(".popup").classList.add("active");
 });
@@ -55,8 +57,6 @@ document.querySelector(".popup .close-btn").addEventListener("click", function()
 
 // Initialize the carousel with the first set of items
 document.addEventListener("DOMContentLoaded", updateCarousel);
-
-
 
 // Login
 const submit = document.querySelector('.sign-in');
@@ -79,7 +79,7 @@ submit.addEventListener('click', () => {
   .then((response) => response.json())
   .then((data) => {
     if (data.message === 'Login success') {
-      window.location.href = 'https://www.google.com/'
+      window.location.href = 'admin.html'
     } else {
       alert('Username/Password Salah')
     }
