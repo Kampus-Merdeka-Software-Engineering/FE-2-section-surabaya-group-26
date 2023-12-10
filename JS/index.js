@@ -69,7 +69,7 @@ submit.addEventListener('click', () => {
     password: password.value
   }
 
-  fetch('http://localhost:3000/login', {
+  fetch('https://be-2-section-surabaya-group-26-production.up.railway.app/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -79,7 +79,7 @@ submit.addEventListener('click', () => {
   .then((response) => response.json())
   .then((data) => {
     if (data.message === 'Login success') {
-      window.location.href = 'admin.html'
+      window.location.href = 'https://www.prisma.io/docs/getting-started/quickstart'
     } else {
       alert('Username/Password Salah')
     }

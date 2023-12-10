@@ -43,7 +43,7 @@ submitForm.addEventListener('click', () => {
   }
   // console.log(data);
 
-  fetch('http://localhost:3000/matkul', {
+  fetch('https://be-2-section-surabaya-group-26-production.up.railway.app/matkul', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -65,7 +65,7 @@ submitForm.addEventListener('click', () => {
 // READ Method
 const tBody = document.querySelector('.matkulTable');
 
-fetch('http://localhost:3000/matkul')
+fetch('https://be-2-section-surabaya-group-26-production.up.railway.app/matkul')
 .then(response => response.json())
 .then(data => {
 
@@ -130,7 +130,7 @@ function updateButton() {
           return;
         }
 
-        fetch (`http://localhost:3000/matkul/${dataId}`, {
+        fetch (`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/${dataId}`, {
           method: 'PATCH',
           headers: {
             'Content-Type': 'application/json',
@@ -159,7 +159,7 @@ function deleteButton() {
     e.addEventListener('click', function() {
       const dataId = this.getAttribute('data-id');
 
-      fetch(`http://localhost:3000/matkul/${dataId}`, {
+      fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/${dataId}`, {
         method: 'DELETE'
       })
       .then(response => response.json())
