@@ -1,5 +1,6 @@
 // Semester 1
 const tSemester1 = document.querySelector('#semester1 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/1`)
 .then(response => response.json())
 .then(data => {
@@ -24,6 +25,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 2
 const tSemester2 = document.querySelector('#semester2 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/2`)
 .then(response => response.json())
 .then(data => {
@@ -48,6 +50,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 3
 const tSemester3 = document.querySelector('#semester3 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/3`)
 .then(response => response.json())
 .then(data => {
@@ -72,6 +75,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 4
 const tSemester4 = document.querySelector('#semester4 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/4`)
 .then(response => response.json())
 .then(data => {
@@ -96,6 +100,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 5
 const tSemester5 = document.querySelector('#semester5 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/5`)
 .then(response => response.json())
 .then(data => {
@@ -120,6 +125,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 6
 const tSemester6 = document.querySelector('#semester6 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/6`)
 .then(response => response.json())
 .then(data => {
@@ -141,8 +147,10 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 })
 
 
+
 // Semester 7
 const tSemester7 = document.querySelector('#semester7 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/7`)
 .then(response => response.json())
 .then(data => {
@@ -167,6 +175,7 @@ fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/s
 
 // Semester 8
 const tSemester8 = document.querySelector('#semester8 tbody')
+
 fetch(`https://be-2-section-surabaya-group-26-production.up.railway.app/matkul/semester/8`)
 .then(response => response.json())
 .then(data => {

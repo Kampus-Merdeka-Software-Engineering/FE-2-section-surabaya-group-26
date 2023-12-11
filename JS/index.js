@@ -79,7 +79,7 @@ submit.addEventListener('click', () => {
   .then((response) => response.json())
   .then((data) => {
     if (data.message === 'Login success') {
-      window.location.href = 'https://www.prisma.io/docs/getting-started/quickstart'
+      window.location.href = 'https://kampus-merdeka-software-engineering.github.io/FE-2-section-surabaya-group-26/admin.html'
     } else {
       alert('Username/Password Salah')
     }
